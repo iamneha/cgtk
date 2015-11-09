@@ -16,7 +16,7 @@ activate(GtkApplication *app,
 	//create new window and set title
 	window = gtk_application_window_new(app);
 	gtk_window_set_title(GTK_WINDOW(window), "window");
-	gtk_window_set_default_size(GTK_WINDOW(window), 300, 300);
+	gtk_window_set_default_size(GTK_WINDOW(window), 200, 200);
 	gtk_container_set_border_width(GTK_CONTAINER(window), 10);
 	//construct container that is going to pack our widget
 	grid = gtk_grid_new();
